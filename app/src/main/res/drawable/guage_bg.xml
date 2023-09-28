@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layer-list xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <item>
+        <shape android:shape="ring"
+            android:thicknessRatio="13"
+            android:useLevel="false">
+        <solid android:color="@color/buttonColBg"/>
+
+        <size android:width="20dp" android:height="20dp"/>
+        </shape>
+    </item>
+
+    <item>
+        <rotate android:toDegrees="270"
+            android:fromDegrees="270">
+                <shape android:shape="ring"
+                    android:thicknessRatio="13"
+                    android:useLevel="true"
+                    >
+                    <gradient android:startColor="@color/progressBarStart"
+                        android:endColor="@color/progressBarEnd"
+                        android:angle="90"
+                        />
+                </shape>
+        </rotate>
+
+    </item>
+
+
+
+</layer-list>

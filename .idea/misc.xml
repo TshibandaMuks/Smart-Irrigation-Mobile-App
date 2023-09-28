@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DesignSurface">
+    <option name="filePathToZoomLevelMap">
+      <map>
+        <entry key="..\:/Users/emman/AndroidStudioProjects/DripRocket/app/src/main/res/drawable/buttons_bg.xml" value="0.1185" />
+        <entry key="..\:/Users/emman/AndroidStudioProjects/DripRocket/app/src/main/res/drawable/city_search_bg.xml" value="0.134" />
+        <entry key="..\:/Users/emman/AndroidStudioProjects/DripRocket/app/src/main/res/drawable/frame_bg.xml" value="0.134" />
+        <entry key="..\:/Users/emman/AndroidStudioProjects/DripRocket/app/src/main/res/drawable/guage_bg.xml" value="0.1185" />
+        <entry key="..\:/Users/emman/AndroidStudioProjects/DripRocket/app/src/main/res/drawable/ic_droplet_half.xml" value="0.134" />
+        <entry key="..\:/Users/emman/AndroidStudioProjects/DripRocket/app/src/main/res/drawable/ic_launcher_background.xml" value="0.1185" />
+        <entry key="..\:/Users/emman/AndroidStudioProjects/DripRocket/app/src/main/res/drawable/ic_menu.xml" value="0.1185" />
+        <entry key="..\:/Users/emman/AndroidStudioProjects/DripRocket/app/src/main/res/drawable/ic_notification.xml" value="0.1" />
+        <entry key="..\:/Users/emman/AndroidStudioProjects/DripRocket/app/src/main/res/drawable/ic_water_now.xml" value="0.134" />
+        <entry key="..\:/Users/emman/AndroidStudioProjects/DripRocket/app/src/main/res/drawable/ic_weather_but.xml" value="0.134" />
+        <entry key="..\:/Users/emman/AndroidStudioProjects/DripRocket/app/src/main/res/drawable/ic_weather_snow.xml" value="0.134" />
+        <entry key="..\:/Users/emman/AndroidStudioProjects/DripRocket/app/src/main/res/drawable/text_bg.xml" value="0.1185" />
+        <entry key="..\:/Users/emman/AndroidStudioProjects/DripRocket/app/src/main/res/drawable/water_btn_bg.xml" value="0.134" />
+        <entry key="..\:/Users/emman/AndroidStudioProjects/DripRocket/app/src/main/res/drawable/water_now_bg.xml" value="0.134" />
+        <entry key="..\:/Users/emman/AndroidStudioProjects/DripRocket/app/src/main/res/drawable/weather_activity_bg.xml" value="0.134" />
+        <entry key="..\:/Users/emman/AndroidStudioProjects/DripRocket/app/src/main/res/drawable/weather_extra_info.xml" value="0.134" />
+        <entry key="..\:/Users/emman/AndroidStudioProjects/DripRocket/app/src/main/res/drawable/weather_view.xml" value="0.134" />
+        <entry key="..\:/Users/emman/AndroidStudioProjects/DripRocket/app/src/main/res/drawable/weather_view_bg.xml" value="0.134" />
+        <entry key="..\:/Users/emman/AndroidStudioProjects/DripRocket/app/src/main/res/font/lightAdvent.xml" value="0.2164102564102564" />
+        <entry key="..\:/Users/emman/AndroidStudioProjects/DripRocket/app/src/main/res/layout/activity_main.xml" value="0.33" />
+        <entry key="..\:/Users/emman/AndroidStudioProjects/DripRocket/app/src/main/res/layout/activity_weather.xml" value="0.33" />
+        <entry key="..\:/Users/emman/AndroidStudioProjects/DripRocket/app/src/main/res/layout/daily_weather.xml" value="0.67" />
+        <entry key="..\:/Users/emman/AndroidStudioProjects/DripRocket/app/src/main/res/layout/daily_weather_layout.xml" value="0.20416666666666666" />
+        <entry key="..\:/Users/emman/AndroidStudioProjects/DripRocket/app/src/main/res/layout/humid_fragment.xml" value="0.1" />
+        <entry key="..\:/Users/emman/AndroidStudioProjects/DripRocket/app/src/main/res/layout/moist_fragment.xml" value="0.19010416666666666" />
+        <entry key="..\:/Users/emman/AndroidStudioProjects/DripRocket/app/src/main/res/layout/recycler_layout.xml" value="0.20102564102564102" />
+        <entry key="..\:/Users/emman/AndroidStudioProjects/DripRocket/app/src/main/res/layout/temp_fragment.xml" value="0.22" />
+        <entry key="..\:/Users/emman/AndroidStudioProjects/DripRocket/app/src/main/res/layout/toast_inflate.xml" value="0.33" />
+        <entry key="..\:/Users/emman/AndroidStudioProjects/DripRocket/app/src/main/res/xml/network_config.xml" value="0.1" />
+      </map>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_11" default="true" project-jdk-name="Android Studio default JDK" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/build/classes" />
+  </component>
+  <component name="ProjectType">
+    <option name="id" value="Android" />
+  </component>
+</project>

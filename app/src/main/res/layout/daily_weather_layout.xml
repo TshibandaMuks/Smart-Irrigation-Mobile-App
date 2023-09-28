@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <androidx.cardview.widget.CardView
+        android:layout_width="65dp"
+        android:layout_height="70dp"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        android:layout_marginEnd="10dp"
+        app:cardBackgroundColor="@color/weatherLinearBg"
+        app:cardElevation="0dp"
+        android:padding="5dp"
+        app:cardCornerRadius="20dp"
+        >
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            >
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:id="@+id/recyclerWeatherDay"
+                android:layout_height="wrap_content"
+                android:textColor="@color/white"
+                android:layout_centerHorizontal="true"
+                android:text="Mon"
+                android:textSize="10dp"
+                android:layout_marginTop="5dp"
+                />
+            <TextView
+                android:layout_width="wrap_content"
+                android:id="@+id/recycerWeatherTemp"
+                android:layout_height="wrap_content"
+                android:textColor="@color/white"
+                android:text="25°"
+                android:layout_centerHorizontal="true"
+                android:layout_marginTop="50dp"
+                android:textSize="10dp"
+                />
+            <ImageView
+                android:id="@+id/recycerWeatherIcon"
+                android:layout_width="30dp"
+
+                android:layout_height="60dp"
+                android:layout_centerHorizontal="true"
+                android:layout_marginTop="5dp"
+                android:src="@drawable/wind"/>
+        </RelativeLayout>
+
+
+
+
+    </androidx.cardview.widget.CardView>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

@@ -1,0 +1,202 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/back_image"
+    tools:context=".MainActivity">
+
+    <ImageView
+        android:onClick="read"
+        android:layout_width="60dp"
+        android:id="@+id/menuButton"
+        android:background="@drawable/buttons_bg"
+        android:layout_height="60dp"
+        android:src="@drawable/ic_menu"
+        android:layout_marginTop="27dp"
+        android:layout_marginStart="10dp"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintStart_toStartOf="@id/leftGuide"
+        android:padding="15dp"
+        android:elevation="20dp"/>
+
+    <ImageView
+        android:onClick="openWeather"
+        android:layout_width="60dp"
+        android:id="@+id/notiButton"
+        android:elevation="20dp"
+        android:background="@drawable/buttons_bg"
+        android:layout_height="60dp"
+        android:src="@drawable/ic_weather_stormy"
+        android:layout_marginTop="27dp"
+        android:layout_marginEnd="10dp"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintEnd_toStartOf="@id/rightGuide"
+        android:padding="10dp"/>
+
+    <androidx.constraintlayout.widget.Guideline
+        android:id="@+id/leftGuide"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        app:layout_constraintGuide_begin="20dp" />
+
+    <TextView
+        android:id="@+id/appName"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="10dp"
+        android:layout_marginTop="20dp"
+        android:fontFamily="@font/advent_pro_extralight"
+        android:text="Drip Rocket"
+        android:textColor="@color/white"
+        android:textSize="30dp"
+        app:layout_constraintStart_toStartOf="@id/leftGuide"
+        app:layout_constraintTop_toBottomOf="@id/menuButton" />
+
+    <TextView
+        android:fontFamily="@font/advent_pro_extralight"
+        android:id="@+id/waterStatus"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:layout_constraintTop_toBottomOf="@id/appName"
+        app:layout_constraintStart_toStartOf="@id/leftGuide"
+        android:text="No internet connection..." style="bold"
+        android:textColor="@color/white"
+        android:textSize="17dp"
+        android:layout_marginStart="10dp"
+        android:layout_marginTop="20dp"
+        />
+    <LinearLayout
+        android:id="@+id/WateringLayouts"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        app:layout_constraintStart_toStartOf="@id/leftGuide"
+        app:layout_constraintEnd_toStartOf="@id/rightGuide"
+        app:layout_constraintTop_toBottomOf="@id/waterStatus"
+        android:layout_marginTop="20dp"
+        android:padding="10dp"
+        >
+        <ImageView
+            android:id="@+id/humidBut"
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:background="@drawable/buttons_bg"
+            android:layout_height="50dp"
+            android:src="@drawable/ic_droplet_half"
+            android:onClick="launchHumidFrag"
+            android:padding="7dp"
+            android:layout_marginEnd="10dp"/>
+
+        <ImageView
+            android:id="@+id/tempBut"
+            android:layout_width="0dp"
+            android:layout_height="50dp"
+            android:layout_marginEnd="10dp"
+            android:layout_weight="1"
+            android:background="@drawable/buttons_bg"
+            android:onClick="launchTempFrag"
+            android:padding="5dp"
+            android:src="@drawable/ic_thermometer_line" />
+
+        <ImageView
+            android:id="@+id/moistBut"
+            android:layout_height="50dp"
+            android:onClick="launchMoistFrag"
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:src="@drawable/ic_soil_moisture_field"
+            android:background="@drawable/buttons_bg"
+            android:padding="5dp"/>
+    </LinearLayout>
+
+ <LinearLayout
+     android:layout_width="0dp"
+     android:layout_height="20dp"
+     android:id="@+id/indicatorTextLayout"
+     android:orientation="horizontal"
+     app:layout_constraintTop_toBottomOf="@id/WateringLayouts"
+     app:layout_constraintStart_toStartOf="@id/leftGuide"
+     app:layout_constraintEnd_toStartOf="@id/rightGuide"
+   >
+
+     <TextView
+         android:layout_width="wrap_content"
+         android:id="@+id/tempText"
+         android:layout_height="wrap_content"
+         android:textSize="12dp"
+         android:textColor="@color/white"
+         android:text="Humidity"
+       android:layout_weight="1"
+         android:layout_marginStart="35dp"
+         android:fontFamily="@font/advent_pro_extralight"
+         />
+
+     <TextView
+         android:id="@+id/humidText"
+         android:layout_width="wrap_content"
+         android:layout_height="wrap_content"
+         android:layout_marginStart="25dp"
+         android:layout_weight="1"
+         android:fontFamily="@font/advent_pro_extralight"
+         android:text="Temperature"
+         android:textColor="@color/white"
+         android:textSize="12dp" />
+
+     <TextView
+         android:id="@+id/moistText"
+         android:layout_width="wrap_content"
+         android:layout_height="wrap_content"
+         android:layout_marginStart="23dp"
+         android:layout_weight="1"
+         android:fontFamily="@font/advent_pro_extralight"
+         android:text="Moisture"
+         android:textColor="@color/white"
+         android:textSize="12dp" />
+ </LinearLayout>
+ <FrameLayout
+         android:layout_width="0dp"
+         android:id="@+id/frame_layout"
+         android:layout_height="300dp"
+         app:layout_constraintStart_toStartOf="@id/leftGuide"
+         app:layout_constraintEnd_toStartOf="@id/rightGuide"
+         app:layout_constraintTop_toBottomOf="@id/indicatorTextLayout"
+         android:layout_marginTop="20dp"
+         >
+
+      <androidx.fragment.app.FragmentContainerView
+          android:id="@+id/fragmentContainerView"
+       android:layout_width="match_parent"
+       android:layout_height="match_parent"
+      />
+     </FrameLayout>
+
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:layout_width="140dp"
+        android:layout_height="70dp"
+        android:id="@+id/waterNow"
+        app:layout_constraintTop_toBottomOf="@id/frame_layout"
+        app:layout_constraintStart_toStartOf="@id/leftGuide"
+        app:layout_constraintEnd_toStartOf="@id/rightGuide"
+        android:layout_marginTop="0dp"
+        android:text="Water Now!"
+        android:onClick="waterNow"
+        android:drawableStart="@drawable/ic_water_now"
+        android:paddingLeft="10dp"
+        android:paddingRight="21dp"
+        android:textSize="13dp"
+        android:textColor="@color/subWhite"
+        android:background="@drawable/water_now_bg"
+        />
+
+    <androidx.constraintlayout.widget.Guideline
+        android:id="@+id/rightGuide"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="16dp"
+        android:orientation="vertical"
+        app:layout_constraintGuide_end="20dp" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

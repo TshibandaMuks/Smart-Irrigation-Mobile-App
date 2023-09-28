@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    tools:context=".TempFragment"
+
+    >
+
+   <ProgressBar
+       android:id="@+id/tempProgressBar"
+       android:layout_width="290dp"
+       android:layout_height="290dp"
+       android:indeterminateOnly="false"
+       android:progressDrawable="@drawable/guage_bg"
+       app:layout_constraintEnd_toEndOf="parent"
+       app:layout_constraintStart_toStartOf="parent"
+       app:layout_constraintTop_toTopOf="parent" /> //android:progress="65"
+
+   <TextView
+       android:id="@+id/tempProgressBarText"
+       android:layout_width="wrap_content"
+       android:layout_height="wrap_content"
+       android:textColor="@color/subWhite"
+       app:layout_constraintStart_toStartOf="@+id/tempProgressBar"
+       app:layout_constraintEnd_toEndOf="@+id/tempProgressBar"
+       app:layout_constraintTop_toTopOf="@+id/tempProgressBar"
+       app:layout_constraintBottom_toBottomOf="@+id/tempProgressBar"
+       android:textSize="40dp"
+        /> //android:text="65&#xb0;C"
+
+</androidx.constraintlayout.widget.ConstraintLayout>

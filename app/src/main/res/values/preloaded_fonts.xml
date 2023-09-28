@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <array name="preloaded_fonts" translatable="false">
+        <item>@font/advent_pro_extralight</item>
+        <item>@font/advent_pro_medium</item>
+        <item>@font/andika</item>
+        <item>@font/bellota_text_light</item>
+        <item>@font/candal</item>
+        <item>@font/round_bold</item>
+        <item>@font/sansita</item>
+    </array>
+</resources>

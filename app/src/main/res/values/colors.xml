@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="purple_200">#FFBB86FC</color>
+    <color name="purple_500">#FF6200EE</color>
+    <color name="purple_700">#FF3700B3</color>
+    <color name="teal_200">#FF03DAC5</color>
+    <color name="teal_700">#FF018786</color>
+    <color name="black">#FF000000</color>
+    <color name="yellow">#DF8E17</color>
+    <color name="white">#FFFFFFFF</color>
+    <color name="buttonColBg">#633C3A3A</color>
+    <color name="buttonColBgDark">#63070707</color>
+    <color name="buttonColBgDark2">#63141414</color>
+    <color name="buttonColPressed">#63696363</color>
+    <color name="buttonColPressedDark">#63494343</color>
+    <color name="progressBarStart">#A8F416CF</color>
+    <color name="progressBarEnd">#9910BED5</color>
+    <color name="fragBg">#00000000</color>
+    <color name="subWhite">#C1D3C0C0</color>
+    <color name="darkWhite">#9FAEA1A1</color>
+    <color name="waterNowPressP">#D5CD44B7</color>
+    <color name="waterNowP">#60F416CF</color>
+    <color name="waterNowPressB">#C62FA7B6</color>
+    <color name="waterNowB">#991CB4C8</color>
+    <color name="weatherInfoBg" >#22A29D9D</color>
+    <color name="transparent" >#00F3ECEC</color>
+    <color name="weatherLinearBg" >#2CE1D8D8</color>
+</resources>

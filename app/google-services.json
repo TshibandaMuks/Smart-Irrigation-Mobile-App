@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "1044909807315",
+    "firebase_url": "https://driprocket-ea523-default-rtdb.firebaseio.com",
+    "project_id": "driprocket-ea523",
+    "storage_bucket": "driprocket-ea523.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1044909807315:android:f50de6302d8bc26c022626",
+        "android_client_info": {
+          "package_name": "com.example.driprocket"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "1044909807315-1aips9comq5f8dnk0ihtt915mo1utpb8.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDEc8-n7dcroAGWIpbhAfKS370HawpZ18o"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "1044909807315-1aips9comq5f8dnk0ihtt915mo1utpb8.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
