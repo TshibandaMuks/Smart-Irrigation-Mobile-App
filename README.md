@@ -7,11 +7,12 @@ To fetch weather data, the app utilizes APIs.
 Upcoming features, outlined in the README, include:
 
 *Custom push notifications to alert users about moisture and humidity levels.
+*Sending notifications through email
 *Vibration feedback for specific button interactions.
 *Saving and tracking irrigation history in the database.
-*Allowing users to make watering decisions based on weather forecasts.
+*Allowing users to make watering schedules based on weather forecasts.
 *Enabling users to easily adjust watering schedules and more.
-*The next commit/updated is expected before November 2023.
+*The next commit/update is expected before November 2023.
 
 Below are some pictures of the App.
 **Ps I still need to add more content to the weather Activity:
