@@ -16,7 +16,8 @@ Upcoming features, outlined in the README, include:
 Below are some pictures of the App.
 **Ps I still need to add more content to the weather Activity:
 
-Weather Activity(https://github.com/Tshibanda1/Smart-Irrigation-Mobile-App/assets/118852771/ae1c4513-73be-4093-b16b-6653927408f1)
-App Ui(https://github.com/Tshibanda1/Smart-Irrigation-Mobile-App/assets/118852771/0839ab54-f0e6-41f0-b8fa-d16bb6b52990)
-App Ui(https://github.com/Tshibanda1/Smart-Irrigation-Mobile-App/assets/118852771/b162bcc9-ad98-4b48-8e77-11d104bbf115)
+![App UI](https://github.com/Tshibanda1/Smart-Irrigation-Mobile-App/assets/118852771/67d5194c-5a5e-4dc6-9a8a-01950d0ec60d)
+![HumidityActivity](https://github.com/Tshibanda1/Smart-Irrigation-Mobile-App/assets/118852771/15eacf1e-b480-467e-b3da-5f63a175c2f7)
+![WeatherActivity](https://github.com/Tshibanda1/Smart-Irrigation-Mobile-App/assets/118852771/d57c4c54-5df6-450b-9896-2c3bc02b94ec)
+
 
