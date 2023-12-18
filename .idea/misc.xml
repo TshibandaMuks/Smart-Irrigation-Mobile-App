@@ -22,15 +22,20 @@
         <entry key="..\:/Users/emman/AndroidStudioProjects/DripRocket/app/src/main/res/drawable/weather_view.xml" value="0.134" />
         <entry key="..\:/Users/emman/AndroidStudioProjects/DripRocket/app/src/main/res/drawable/weather_view_bg.xml" value="0.134" />
         <entry key="..\:/Users/emman/AndroidStudioProjects/DripRocket/app/src/main/res/font/lightAdvent.xml" value="0.2164102564102564" />
-        <entry key="..\:/Users/emman/AndroidStudioProjects/DripRocket/app/src/main/res/layout/activity_main.xml" value="0.33" />
-        <entry key="..\:/Users/emman/AndroidStudioProjects/DripRocket/app/src/main/res/layout/activity_weather.xml" value="0.33" />
+        <entry key="..\:/Users/emman/AndroidStudioProjects/DripRocket/app/src/main/res/layout/activity_main.xml" value="0.25" />
+        <entry key="..\:/Users/emman/AndroidStudioProjects/DripRocket/app/src/main/res/layout/activity_watering_history.xml" value="0.14" />
+        <entry key="..\:/Users/emman/AndroidStudioProjects/DripRocket/app/src/main/res/layout/activity_weather.xml" value="0.14" />
+        <entry key="..\:/Users/emman/AndroidStudioProjects/DripRocket/app/src/main/res/layout/dailyHistory.xml" value="0.33" />
+        <entry key="..\:/Users/emman/AndroidStudioProjects/DripRocket/app/src/main/res/layout/daily_watering_history.xml" value="0.20416666666666666" />
         <entry key="..\:/Users/emman/AndroidStudioProjects/DripRocket/app/src/main/res/layout/daily_weather.xml" value="0.67" />
         <entry key="..\:/Users/emman/AndroidStudioProjects/DripRocket/app/src/main/res/layout/daily_weather_layout.xml" value="0.20416666666666666" />
         <entry key="..\:/Users/emman/AndroidStudioProjects/DripRocket/app/src/main/res/layout/humid_fragment.xml" value="0.1" />
+        <entry key="..\:/Users/emman/AndroidStudioProjects/DripRocket/app/src/main/res/layout/individual_watering_history.xml" value="0.20416666666666666" />
         <entry key="..\:/Users/emman/AndroidStudioProjects/DripRocket/app/src/main/res/layout/moist_fragment.xml" value="0.19010416666666666" />
         <entry key="..\:/Users/emman/AndroidStudioProjects/DripRocket/app/src/main/res/layout/recycler_layout.xml" value="0.20102564102564102" />
         <entry key="..\:/Users/emman/AndroidStudioProjects/DripRocket/app/src/main/res/layout/temp_fragment.xml" value="0.22" />
         <entry key="..\:/Users/emman/AndroidStudioProjects/DripRocket/app/src/main/res/layout/toast_inflate.xml" value="0.33" />
+        <entry key="..\:/Users/emman/AndroidStudioProjects/DripRocket/app/src/main/res/menu/drawer_menu.xml" value="0.21" />
         <entry key="..\:/Users/emman/AndroidStudioProjects/DripRocket/app/src/main/res/xml/network_config.xml" value="0.1" />
       </map>
     </option>

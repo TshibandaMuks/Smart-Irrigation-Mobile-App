@@ -7,6 +7,7 @@ import androidx.annotation.NonNull;
 import androidx.annotation.Nullable;
 import androidx.fragment.app.Fragment;
 
+import android.util.Log;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
@@ -19,6 +20,7 @@ import com.google.firebase.database.DatabaseError;
 import com.google.firebase.database.DatabaseReference;
 import com.google.firebase.database.FirebaseDatabase;
 import com.google.firebase.database.ValueEventListener;
+import com.google.firebase.firestore.FirebaseFirestore;
 
 public class TempFragment extends Fragment {
     View tempFragView;                //this contains all the data which are in the temp_fragment xml
@@ -29,7 +31,8 @@ public class TempFragment extends Fragment {
         tempFragView = inflater.inflate(R.layout.temp_fragment, container, false);
         FirebaseDatabase firebaseDatabase = FirebaseDatabase.getInstance();    //get instance of the database
         DatabaseReference databaseReference = firebaseDatabase.getReference("SensorData").child("Temperature");  //create a reference to the database for using realtime db,
-                                                                                                     // must add .child and say what child i want a reference of
+
+        // must add .child and say what child i want a reference of
         TextView temperatureProgressBarText = (TextView) tempFragView.findViewById(R.id.tempProgressBarText);
         ProgressBar tempProgressBar = (ProgressBar) tempFragView.findViewById(R.id.tempProgressBar);
 

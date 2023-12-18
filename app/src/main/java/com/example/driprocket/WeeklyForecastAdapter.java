@@ -22,7 +22,8 @@ public class WeeklyForecastAdapter extends RecyclerView.Adapter<WeeklyForecastVi
     @NonNull
     @Override
     public WeeklyForecastViewHolder onCreateViewHolder(@NonNull ViewGroup parent, int viewType) {
-        return  new WeeklyForecastViewHolder(LayoutInflater.from(context).inflate(R.layout.daily_weather_layout,parent,false));
+        return  new WeeklyForecastViewHolder(LayoutInflater.from(context).inflate(R.layout.daily_weather_layout,
+                parent,false));
     }
 
     @Override
